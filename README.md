@@ -18,10 +18,10 @@ Works with DRV8833 or similar motor drivers
 
  **Project Structure**
 /src
- │ main.py        # Main loop + motor control
- │ pid.py         # PID controller
- │ sensor.py      # QTR-11D reading + position calculation
- │ config.py      # PID + speed settings
+ │ main.py         Main loop + motor control
+ │ pid.py          PID controller
+ │ sensor.py       QTR-11D reading + position calculation
+ │ config.py       PID + speed settings
 
 
 **Setup**
