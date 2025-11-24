@@ -40,6 +40,6 @@ Add I to reduce drift on long straights.
 
 Use D to smooth out fast turns.
 
-📜 License
+**License**
 
 MIT License
