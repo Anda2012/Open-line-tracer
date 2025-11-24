@@ -14,7 +14,9 @@ Smooth PWM motor output
 
 Simple, modular MicroPython code
 
-Works with DRV8833 or similar motor drivers
+Works with the DRV8833 motor driver
+
+uses the ip5306 battery charger & boost converter
 
  **Project Structure**
 src
