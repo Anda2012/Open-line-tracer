@@ -1,4 +1,4 @@
-MicroPython 11-Channel PID Line Follower
+**Open source MicroPython 11-Channel PID Line Follower**
 
 ESP32-C3 Mini-1 + Massmore JET QTR-11D
 
@@ -16,32 +16,15 @@ Simple, modular MicroPython code
 
 Works with DRV8833 or similar motor drivers
 
- Project Structure
+ **Project Structure**
 /src
  │ main.py        # Main loop + motor control
  │ pid.py         # PID controller
  │ sensor.py      # QTR-11D reading + position calculation
  │ config.py      # PID + speed settings
 
-🔌 Wiring Overview
 
-ESP32-C3 Mini-1 → JET QTR-11D
-
-3.3V → VCC
-
-GND → GND
-
-Sensor outputs → GPIO pins (any ADC-capable pins)
-
-ESP32-C3 Mini-1 → Motor Driver
-
-PWM_L / PWM_R → Motor driver inputs
-
-VIN + GND → Motor supply (according to your driver)
-
-(Keep wiring consistent with your specific board layout.)
-
-🛠 Setup
+**Setup**
 
 Install MicroPython on the ESP32-C3.
 
@@ -51,7 +34,7 @@ Adjust PID constants in config.py as needed.
 
 Run main.py to start the line follower.
 
-⚙️ PID Tuning Tips
+**PID Tuning Tips**
 
 Increase P for stronger corrections.
 
